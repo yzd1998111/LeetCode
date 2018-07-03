@@ -25,5 +25,6 @@ public class MainActivity extends AppCompatActivity{
 
         String endRes = ZigZag_Conversion.convert("gjmwractemolpfkwzaeiuxroknqcvcfclryeraaxmoidvuzuvgepdyfolvsgzxkkqiqjkqgzhrccnexikdzpbefob", 59);
         System.out.println("result" + endRes);
+
     }
 }
