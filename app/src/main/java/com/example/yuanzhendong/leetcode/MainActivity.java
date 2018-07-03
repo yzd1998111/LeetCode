@@ -10,17 +10,20 @@ public class MainActivity extends AppCompatActivity{
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
-        Add_Two_Numbers.ListNode list2 = new Add_Two_Numbers.ListNode(1);
-        list2.next = new Add_Two_Numbers.ListNode(9);
-        list2.next.next = new Add_Two_Numbers.ListNode(9);
-        list2.next.next.next = new Add_Two_Numbers.ListNode(9);
-        list2.next.next.next.next = new Add_Two_Numbers.ListNode(9);
-        list2.next.next.next.next.next = new Add_Two_Numbers.ListNode(9);
-        list2.next.next.next.next.next.next= new Add_Two_Numbers.ListNode(9);
-        list2.next.next.next.next.next.next.next= new Add_Two_Numbers.ListNode(9);
-        list2.next.next.next.next.next.next.next.next= new Add_Two_Numbers.ListNode(9);
-        list2.next.next.next.next.next.next.next.next.next = new Add_Two_Numbers.ListNode(9);
-        Add_Two_Numbers.ListNode res = Add_Two_Numbers.addTwoNumbers(new Add_Two_Numbers.ListNode(9), list2);
+//        Add_Two_Numbers.ListNode list2 = new Add_Two_Numbers.ListNode(1);
+//        list2.next = new Add_Two_Numbers.ListNode(9);
+//        list2.next.next = new Add_Two_Numbers.ListNode(9);
+//        list2.next.next.next = new Add_Two_Numbers.ListNode(9);
+//        list2.next.next.next.next = new Add_Two_Numbers.ListNode(9);
+//        list2.next.next.next.next.next = new Add_Two_Numbers.ListNode(9);
+//        list2.next.next.next.next.next.next= new Add_Two_Numbers.ListNode(9);
+//        list2.next.next.next.next.next.next.next= new Add_Two_Numbers.ListNode(9);
+//        list2.next.next.next.next.next.next.next.next= new Add_Two_Numbers.ListNode(9);
+//        list2.next.next.next.next.next.next.next.next.next = new Add_Two_Numbers.ListNode(9);
+//        Add_Two_Numbers.ListNode res = Add_Two_Numbers.addTwoNumbers(new Add_Two_Numbers.ListNode(9), list2);
         super.onCreate(savedInstanceState);
+
+        String endRes = ZigZag_Conversion.convert("gjmwractemolpfkwzaeiuxroknqcvcfclryeraaxmoidvuzuvgepdyfolvsgzxkkqiqjkqgzhrccnexikdzpbefob", 59);
+        System.out.println("result" + endRes);
     }
 }
