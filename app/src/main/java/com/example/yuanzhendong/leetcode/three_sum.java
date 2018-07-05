@@ -51,7 +51,7 @@ public class three_sum {
                         }
                     }
                     curSol = new ArrayList<>();
-                    
+
                     while(left < right && nums[left] == nums[left+1]) {
                         System.out.println("aa");
                         left++;
